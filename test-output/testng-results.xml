@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65246" started-at="2017-01-13T03:46:52Z" finished-at="2017-01-13T03:47:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65246" started-at="2017-01-13T03:46:52Z" finished-at="2017-01-13T03:47:57Z">
+      <class name="com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="setUp" is-config="true" duration-ms="8788" started-at="2017-01-12T22:46:52Z" finished-at="2017-01-12T22:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="OpenWebPage_AddFirstItem()[pri:0, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="OpenWebPage_AddFirstItem" duration-ms="3860" started-at="2017-01-12T22:47:01Z" finished-at="2017-01-12T22:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebPage_AddFirstItem -->
+        <test-method status="PASS" signature="CheckCartQuantity()[pri:1, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="CheckCartQuantity" duration-ms="272" started-at="2017-01-12T22:47:04Z" finished-at="2017-01-12T22:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCartQuantity -->
+        <test-method status="PASS" signature="SearchFirstItemAndAddIt()[pri:2, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="SearchFirstItemAndAddIt" duration-ms="4631" started-at="2017-01-12T22:47:05Z" finished-at="2017-01-12T22:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFirstItemAndAddIt -->
+        <test-method status="PASS" signature="IncreaseQuantity()[pri:3, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="IncreaseQuantity" duration-ms="3851" started-at="2017-01-12T22:47:09Z" finished-at="2017-01-12T22:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncreaseQuantity -->
+        <test-method status="PASS" signature="DecreaseQuantity()[pri:4, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="DecreaseQuantity" duration-ms="2732" started-at="2017-01-12T22:47:13Z" finished-at="2017-01-12T22:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DecreaseQuantity -->
+        <test-method status="PASS" signature="RemoveFromCart()[pri:5, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="RemoveFromCart" duration-ms="388" started-at="2017-01-12T22:47:16Z" finished-at="2017-01-12T22:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFromCart -->
+        <test-method status="PASS" signature="SearchSecondItem()[pri:6, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="SearchSecondItem" duration-ms="2152" started-at="2017-01-12T22:47:16Z" finished-at="2017-01-12T22:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchSecondItem -->
+        <test-method status="PASS" signature="AddSecondItem()[pri:7, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="AddSecondItem" duration-ms="4983" started-at="2017-01-12T22:47:18Z" finished-at="2017-01-12T22:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSecondItem -->
+        <test-method status="PASS" signature="IncreaseDecreaseSecondItem()[pri:8, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="IncreaseDecreaseSecondItem" duration-ms="8105" started-at="2017-01-12T22:47:23Z" finished-at="2017-01-12T22:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncreaseDecreaseSecondItem -->
+        <test-method status="PASS" signature="SearchThirdItem()[pri:9, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="SearchThirdItem" duration-ms="719" started-at="2017-01-12T22:47:32Z" finished-at="2017-01-12T22:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchThirdItem -->
+        <test-method status="PASS" signature="AddThirdItem()[pri:10, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="AddThirdItem" duration-ms="4766" started-at="2017-01-12T22:47:32Z" finished-at="2017-01-12T22:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddThirdItem -->
+        <test-method status="PASS" signature="ReadyToCheckOut()[pri:11, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="ReadyToCheckOut" duration-ms="2883" started-at="2017-01-12T22:47:37Z" finished-at="2017-01-12T22:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadyToCheckOut -->
+        <test-method status="PASS" signature="CheckOutAsGuest()[pri:12, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="CheckOutAsGuest" duration-ms="4362" started-at="2017-01-12T22:47:40Z" finished-at="2017-01-12T22:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutAsGuest -->
+        <test-method status="PASS" signature="ReadExcel()[pri:13, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="ReadExcel" duration-ms="5788" started-at="2017-01-12T22:47:44Z" finished-at="2017-01-12T22:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadExcel -->
+        <test-method status="PASS" signature="SaveContinous()[pri:14, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="SaveContinous" duration-ms="2784" started-at="2017-01-12T22:47:50Z" finished-at="2017-01-12T22:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveContinous -->
+        <test-method status="PASS" signature="InsertCreditCardNum()[pri:15, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="InsertCreditCardNum" duration-ms="2492" started-at="2017-01-12T22:47:53Z" finished-at="2017-01-12T22:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertCreditCardNum -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests@3f49dace]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-01-12T22:47:55Z" finished-at="2017-01-12T22:47:55Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '3.0.0-beta2', revision: '2aa21c1', time: '2016-08-02 15:03:28 -0700'
+System info: host: 'AhmadZia', ip: '192.168.133.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9172, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: c087deb9-9960-4e27-a126-58337a3a9071]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '3.0.0-beta2', revision: '2aa21c1', time: '2016-08-02 15:03:28 -0700'
+System info: host: 'AhmadZia', ip: '192.168.133.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9172, browserVersion=50.1.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: c087deb9-9960-4e27-a126-58337a3a9071
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:706)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:531)
+	at com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests.tearDown(AppTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.afterRun(TestRunner.java:980)
+	at org.testng.TestRunner.run(TestRunner.java:611)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.IllegalStateException: UnixUtils may not be used on Windows
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:188)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.getPID(UnixProcess.java:222)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$300(UnixProcess.java:201)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:132)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:649)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ahmadzia.targetWebSiteTest.AppTest$ATUReporterSampleTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
