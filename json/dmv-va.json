@@ -1,0 +1,483 @@
+[{
+		"question": "If two vehicles from different directions arrive at the same time at an intersection with no signs or signals, then",
+		"answers": [{
+				"id": 0,
+				"text": "the driver on the left must allow the driver on the right to go first"
+			},
+			{
+				"id": 1,
+				"text": "the driver on the right must allow the driver on the left to go first"
+			},
+			{
+				"id": 2,
+				"text": "the driver of a heavy vehicle must allow the smaller vehicle to go first"
+			},
+			{
+				"id": 3,
+				"text": "the driver turning right must allow the driver turning left to go first"
+			}
+		],
+		"correct": 0
+	},
+	{
+		"question": "When waiting to make a left turn, a driver must",
+		"answers": [{
+				"id": 0,
+				"text": "keep the front wheels pointed straight"
+			},
+			{
+				"id": 1,
+				"text": "keep the front wheels pointed toward the left"
+			},
+			{
+				"id": 2,
+				"text": "keep the front wheels toward the right"
+			},
+			{
+				"id": 3,
+				"text": "none of the above"
+			}
+		],
+		"correct": 0,
+		"feedback": "When waiting to make a left turn, always keep your front wheels pointed straight ahead until you start the turn. This prevents you from being pushed into oncoming traffic if another vehicle crashes into you from behind."
+	},
+
+	{
+		"question": "When you approach a school bus with flashing red lights and an extended stop sign, you must",
+		"answers": [{
+				"id": 0,
+				"text": "pass the bus slowly"
+			},
+			{
+				"id": 1,
+				"text": "pass the bus quickly with an increased speed"
+			},
+			{
+				"id": 2,
+				"text": "stop and remain stopped until the bus moves again"
+			},
+			{
+				"id": 3,
+				"text": "continue with the same speed"
+			}
+		],
+		"correct": 2,
+		"feedback": "You must stop for stopped school buses with flashing red lights and an extended stop sign when you approach from any direction on a public or private road. Stop and remain stopped until all children are clear and the bus moves again."
+	},
+
+	{
+		"question": "If you park next to a curb, you may not park__________from the curb.",
+		"answers": [{
+				"id": 0,
+				"text": "less than three feet"
+			},
+			{
+				"id": 1,
+				"text": "less than four feet"
+			},
+			{
+				"id": 2,
+				"text": "more than two feet"
+			},
+			{
+				"id": 3,
+				"text": "more than one foot"
+			}
+		],
+		"correct": 3,
+		"feedback": "If you park next to a curb, pull close to it. You may not park more than one foot from the curb."
+	},
+
+	{
+		"question": "The distance a vehicle travels between the time the driver recognizes a problem and the time he/she applies the brakes is known as",
+		"answers": [{
+				"id": 0,
+				"text": "the braking distance"
+			},
+			{
+				"id": 1,
+				"text": "the reaction distance"
+			},
+			{
+				"id": 2,
+				"text": "the stopping distance"
+			},
+			{
+				"id": 3,
+				"text": "the percenption time"
+			}
+		],
+		"correct": 1,
+		"feedback": "The distance your vehicle travels between the time you recognize a problem and the time you apply the brakes is known as the reaction distance. Reaction distance is part of the stopping distance."
+	},
+
+	{
+		"question": "When you leave your vehicle parked downhill parallel to the curb on the right side of the road, you must turn the front wheels",
+		"answers": [{
+				"id": 0,
+				"text": "parallel to the curb"
+			},
+			{
+				"id": 1,
+				"text": "away from the curb"
+			},
+			{
+				"id": 2,
+				"text": "toward the right"
+			},
+			{
+				"id": 3,
+				"text": "toward the left"
+			}
+		],
+		"correct": 2,
+		"feedback": "When you leave your vehicle parked downhill parallel to the curb on the right side of the road, you must turn front wheels toward the curb or toward the right to prevent the vehicle from rolling into the street."
+	},
+
+	{
+		"question": "If two vehicles from different directions arrive at the same time at an intersection with no signs or signals, then",
+		"answers": [{
+				"id": 0,
+				"text": "the dirver turning right must allow the driver turning left to go first"
+			},
+			{
+				"id": 1,
+				"text": "the driver of a heavy vehicle must allow the smaller vehicle to go first"
+			},
+			{
+				"id": 2,
+				"text": "the driver on the right must allow the driver on the left to go first"
+			},
+			{
+				"id": 3,
+				"text": "the driver on the left must allow the driver on the right to go first"
+			}
+		],
+		"correct": 3,
+		"feedback": "When two vehicles from different directions arrive at the same time at an intersection with no signs or signals, the driver on the left must allow the driver on the right to go first."
+	},
+
+	{
+		"question": "A flashing yellow light means that you should",
+		"answers": [{
+				"id": 0,
+				"text": "come to a complete stop"
+			},
+			{
+				"id": 1,
+				"text": "make a U-turn"
+			},
+			{
+				"id": 2,
+				"text": "speed up to clear the intersection"
+			},
+			{
+				"id": 3,
+				"text": "slow down and preceed with caution"
+			}
+		],
+		"correct": 3,
+		"feedback": "A flashing yellow light means that you should slow down and proceed with caution. Flashing yellow lights are positioned at relatively hazardous locations."
+	},
+
+
+	{
+		"question": "You may turn left at a red light only when",
+		"answers": [{
+				"id": 0,
+				"text": "turning from a one-way street onto a two-way street"
+			},
+			{
+				"id": 1,
+				"text": "turning from a two-way street onto a one-way street"
+			},
+			{
+				"id": 2,
+				"text": "turning from a two-way street onto another two-way street"
+			},
+			{
+				"id": 3,
+				"text": "turning from a one-way street onto another one-way street"
+			}
+		],
+		"correct": 2,
+		"feedback": "You may turn left at a red light if you are on a one-way street and turning left onto another one-way street. Before turning, you must come to a complete stop."
+	},
+
+
+	{
+		"question": "What does a broken white line on the pavement indicate?",
+		"answers": [{
+				"id": 0,
+				"text": "The right edge of the road"
+			},
+			{
+				"id": 1,
+				"text": "The left edge of the road"
+			},
+			{
+				"id": 2,
+				"text": "Lanes of traffic moving in different directions"
+			},
+			{
+				"id": 3,
+				"text": "Lanes of traffic moving in the same direction"
+			}
+		],
+		"correct": 3,
+		"feedback": "Broken white lines separate lanes of traffic going in the same direction. You may change lanes with caution."
+	},
+
+	{
+		"question": "When following other vehicles, you must use __________ within 200 feet of the vehicle ahead.",
+		"answers": [{
+				"id": 0,
+				"text": "emergency lights"
+			},
+			{
+				"id": 1,
+				"text": "low-beam headlights"
+			},
+			{
+				"id": 2,
+				"text": "flashing lights"
+			},
+			{
+				"id": 3,
+				"text": "high-beam headlights"
+			}
+		],
+		"correct": 1,
+		"feedback": "Switch to low-beams whenever you meet the oncoming traffic to avoid blinding the other driver. When following, use low-beams whenever you are within 200 feet of the vehicle ahead."
+	},
+
+	{
+		"question": "If you are convicted of exceeding the speed limit in a highway work zone, you may be fined up to",
+		"answers": [{
+				"id": 0,
+				"text": "400 dollars"
+			},
+			{
+				"id": 1,
+				"text": "300 dollars"
+			},
+			{
+				"id": 2,
+				"text": "200 dollars"
+			},
+			{
+				"id": 3,
+				"text": "500 dollars"
+			}
+		],
+		"correct": 3
+	},
+	
+	{
+		"question": "'Blind spots' refer to?",
+		"answers": [{
+				"id": 0,
+				"text": "the areas in school zones where school children cross the road"
+			},
+			{
+				"id": 1,
+				"text": "the areas in the interstate where vehicles can be stopped for emergencies"
+			},
+			{
+				"id": 2,
+				"text": "the areas around  a vehicle that cannot be seen in the mirrors"
+			},
+			{
+				"id": 3,
+				"text": "the areas in residential roads where vehicles should not enter"
+			}
+		],
+		"correct": 2,
+		"feedback": "Blind spots are danger areas that cannot be seen in the mirrors on either side of the vehicle. The best way to see a car in your blind spot is by quickly turning your head and glancing over your shoulder to ensure the way is clear before changing lanes or passing another vehicle."
+	},
+
+	{
+		"question": "The Virginia law requires that __________ must wear safety belts or restraints when the vehicle is in motion.",
+		"answers": [{
+				"id": 0,
+				"text": "the driver, rear seat passenger and children"
+			},
+			{
+				"id": 1,
+				"text": "only the children"
+			},
+			{
+				"id": 2,
+				"text": "the driver and children"
+			},
+			{
+				"id": 3,
+				"text": "the driver, front seat passenger and children"
+			}
+		],
+		"correct": 3,
+		"feedback": "According to Virginia law, the driver and all front seat passengers must wear safety belts.A driver transporting anyone younger than age 18 must ensure that the passenger is properly secured in a safety belt,booster seat or child safety seat,no matter where the child is seated in the vehicle."
+	},
+
+	{
+		"question": "A double solid yellow line in the center of the road means that",
+		"answers": [{
+				"id": 0,
+				"text": "passing  is allowed in either direction"
+			},
+			{
+				"id": 1,
+				"text": "passing is not allowed in either direction"
+			},
+			{
+				"id": 2,
+				"text": "traffic can go in only one direction."
+			},
+			{
+				"id": 3,
+				"text": "all traffic must stop at the line."
+			}
+		],
+		"correct": 1,
+		"feedback": "Double solid yellow lines mark the center of a road and separate traffic traveling in opposite directions. Passing is not allowed in either direction. Drivers may not cross the lines unless they are making a left turn."
+	},
+
+	{
+		"question": "If you drive at 55 mph on dry, level pavement, your average stopping distance will be",
+		"answers": [{
+				"id": 0,
+				"text": "465 feet"
+			},
+			{
+				"id": 1,
+				"text": "265 feet"
+			},
+			{
+				"id": 2,
+				"text": "365 feet"
+			},
+			{
+				"id": 3,
+				"text": "165 feet"
+			}
+		],
+		"correct": 1,
+		"feedback": "If you drive at 55 mph on a dry, level pavement, your average stopping distance will be 265 feet.The stopping distance increases in adverse conditions."
+	},
+
+	{
+		"question": "If your car stalls on the rail tracks and you see or hear a train coming, you should",
+		"answers": [{
+				"id": 0,
+				"text": "try to move your car from the tracks"
+			},
+			{
+				"id": 1,
+				"text": "turn on emergency signals to alert the train Drivers"
+			},
+			{
+				"id": 2,
+				"text": "get out of the car and move away from the tracks"
+			},
+			{
+				"id": 3,
+				"text": "use you hand signal to alert the  oncoming train"
+			}
+		],
+		"correct": 2,
+		"feedback": "If your car stalls on the tracks and you see or hear a train coming,you should get out of the car right away and run diagonally away from the tracks in the direction of the oncoming train."
+	},
+
+	{
+		"question": "If an emergency vehicle using a siren and flashing lights approaches you,you must __________ until the emergency vehicle has passed.",
+		"answers": [{
+				"id": 0,
+				"text": "safely pull over to the left edge of the road and stop"
+			},
+			{
+				"id": 1,
+				"text": "move slowly"
+			},
+			{
+				"id": 2,
+				"text": "safely pull over  to the right edge of the road and stop"
+			},
+			{
+				"id": 3,
+				"text": "stop in your lane of travel"
+			}
+		],
+		"correct": 2,
+		"feedback": "When police, fire and rescue vehicles or ambulances approach you from behind your vehicle using a siren, flashing lights or both, you must immediately yield the right-of-way.Safely pull over to the right edge of the road and stop until the emergency vehicle has passed."
+	},
+
+	{
+		"question": "When driving under 35 mph on Virginia roads, you should maintain a space cushion between you and the vehicle ahead of you by using ",
+		"answers": [{
+				"id": 0,
+				"text": "the four-second rule"
+			},
+			{
+				"id": 1,
+				"text": "the three-second rule"
+			},
+			{
+				"id": 2,
+				"text": "the two-second rule"
+			},
+			{
+				"id": 3,
+				"text": "the one-second rule"
+			}
+		],
+		"correct": 2,
+		"feedback": "When driving under 35 mph on Virginia roads, you should maintain a space cushion between you and the vehicle ahead of you by using the two - second following distance rule.You should count“ 1001,1002” to determine the appropriate following distance."
+	},
+
+	{
+		"question": "A pennant sign on a roadway is",
+		"answers": [{
+				"id": 0,
+				"text": "an indicator of unusual conditions near work zones"
+			},
+			{
+				"id": 1,
+				"text": "an advance warning of a no-passsing zone"
+			},
+			{
+				"id": 2,
+				"text": "an advance warning of a closed road head"
+			},
+			{
+				"id": 3,
+				"text": "a railroad crossing"
+			}
+		],
+		"correct": 1,
+		"feedback": "This sign marks the beginning of a no-passing zone. You may not pass vehicles ahead of you in your lane, even if the way is clear."
+	},
+
+
+	{
+		"question": "What is the maximum permitted speed for passenger vehicles on Virginia interstate highways in certain rural areas, unless otherwise posted?",
+		"answers": [{
+				"id": 0,
+				"text": "70 mph"
+			},
+			{
+				"id": 1,
+				"text": "55 mph"
+			},
+			{
+				"id": 2,
+				"text": "85 mph"
+			},
+			{
+				"id": 3,
+				"text": "50 mph"
+			}
+		],
+		"correct": 0,
+		"feedback": "A speed limit is the maximum legal speed you can travel on a road under ideal conditions. The maximum speed allowed for passenger vehicles on Virginia interstate highways in certain rural areas is 70 mph."
+	}
+]
