@@ -21,9 +21,9 @@ body { background-color: #fff; padding: 20px; text-align: center;}
       font-size: 3.2em; line-height: 100px;  margin: auto;
 }
 
-#myQuiz h2 {  font-size: 4em; margin: 0px; font-weight: 100; margin-top: 80px; margin-left: 100px;}
-#myQuiz h3 {  font-size: 2.8em; margin-top: 40px;  font-weight: 100; text-align: left;}
-#myQuiz p { font-size: 1.8em; margin: 0px px 14px 0px;}
+#myQuiz h2 {  font-size: 2.2em; margin: auto; font-weight: 100; margin-top: 150px; margin-left: 150px;}
+#myQuiz h3 {  font-size: 2.8em; margin-top: 40px;  font-weight: 100; text-align: center;}
+#myQuiz p { font-size: 1.8em; margin: 0px 0px 14px 0px;}
 #myQuiz .btn {
     margin: auto;
     text-align: center;
@@ -32,6 +32,10 @@ body { background-color: #fff; padding: 20px; text-align: center;}
     color: #fff; text-decoration: none;
     padding: 5px 15px; border-radius: 20px;
 
+}
+
+#myQuiz .center {
+  text-align: center;
 }
 
 /* Progress Bar */
@@ -134,7 +138,7 @@ body { background-color: #fff; padding: 20px; text-align: center;}
   #myQuiz .progress div { width: 25px; height: 25; margin-right: 20px;}
   #myQuiz .progress div::after { top: -30px; width: 53px; height: 33px;}
 
-  #myQuiz .intro { width: 300px; font-size: 0.5em; top: 90px; left: 330px; }
+  #myQuiz .intro { width: 300px; font-size: 0.5em; top: 100px; left: 330px; }
 
   #myQuiz .question { width: 300px; top: 135px; left: 330px; }
   #myQuiz .question .txt {font-size: 1.4em; margin-bottom: 15px;}
