@@ -1,8 +1,8 @@
 (function(){
 
-    var app = angular.module('myQuiz', []);
+    var myQuiz = angular.module('myQuiz', []);
 
-    app.controller('QuizController', ['$scope', '$http', '$sce',
+    myQuiz.controller('QuizController', ['$scope', '$http', '$sce',
     function($scope,$http,$sce)
     {
                       $scope.score = 0;

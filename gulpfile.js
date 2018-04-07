@@ -17,7 +17,7 @@ gulp.task('css', function() {
 gulp.task('watch', function() {
     gulp.watch('builds/dmv_js/**/*', ['js']);
     gulp.watch('builds/dmv_css/*.css', ['css']);
-    gulp.watch(['builds/*.html'], ['html']);
+    // gulp.watch(['builds/*.html'], ['html']);
 });
 
 gulp.task('webserver', function() {
