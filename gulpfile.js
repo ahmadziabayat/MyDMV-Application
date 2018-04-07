@@ -10,6 +10,10 @@ gulp.task('html', function() {
     gulp.src('builds/*.html');
 });
 
+gulp.task('json', function() {
+    gulp.src('builds/json/*.json');
+});
+
 gulp.task('css', function() {
     gulp.src('builds/dmv_css/*.css');
 });
@@ -17,7 +21,8 @@ gulp.task('css', function() {
 gulp.task('watch', function() {
     gulp.watch('builds/dmv_js/**/*', ['js']);
     gulp.watch('builds/dmv_css/*.css', ['css']);
-    // gulp.watch(['builds/*.html'], ['html']);
+    gulp.watch(['builds/json/*.json'], ['json']);
+    gulp.watch(['builds/*.html'], ['html']);
 });
 
 gulp.task('webserver', function() {
