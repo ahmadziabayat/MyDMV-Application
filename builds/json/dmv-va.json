@@ -1706,8 +1706,844 @@
 			],
 			"correct": 2,
 			"feedback": ""
+		},
+		{
+			"question": "How fast should you be driving when trying to merge onto the highway?",
+			"answers": [{
+					"id": 0,
+					"text": "A similar speed as the cars on the highway."
+				},
+				{
+					"id": 1,
+					"text": "Somewhat slower than the cars on the highway."
+				},
+				{
+					"id": 2,
+					"text": "You should be stopped, and then accelerate quickly when you are ready to merge."
+				},
+				{
+					"id": 3,
+					"text": "Somewhat faster than the other cars on the highway, so that you can get on easily without the risk o being hit by one of the cars."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "True or False: You can go off the road or into the side lane in order to pass a very slow moving vehicle or a car turning left.",
+			"answers": [{
+					"id": 0,
+					"text": "True."
+				},
+				{
+					"id": 1,
+					"text": "False."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "How do you know where to stop at a stop sign if there is no crosswalk or line?",
+			"answers": [{
+					"id": 0,
+					"text": "You should stop three feet after the stop sign."
+				},
+				{
+					"id": 1,
+					"text": "You should stop ten feet from the stop sign."
+				},
+				{
+					"id": 2,
+					"text": "You should stop directly at the stop sign."
+				},
+				{
+					"id": 3,
+					"text": "You should stop close enough to the stop sign, while still getting a good view of the traffic."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "What is the maximum distance your car can be from the curb when parallel parked?",
+			"answers": [{
+					"id": 0,
+					"text": "12 inches."
+				},
+				{
+					"id": 1,
+					"text": "18 inches."
+				},
+				{
+					"id": 2,
+					"text": "24 inches."
+				},
+				{
+					"id": 3,
+					"text": "6 inches."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "On an open highway, how far ahead should you be looking?",
+			"answers": [{
+					"id": 0,
+					"text": "An eighth of a mile."
+				},
+				{
+					"id": 1,
+					"text": "25 feet."
+				},
+				{
+					"id": 2,
+					"text": "One quarter of a mile."
+				},
+				{
+					"id": 3,
+					"text": "One mile."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "What does the breathalyzer test measure?",
+			"answers": [{
+					"id": 0,
+					"text": "Whether or not you are sober enough to drive."
+				},
+				{
+					"id": 1,
+					"text": "How quickly your reaction are."
+				},
+				{
+					"id": 2,
+					"text": "The level of your Blood Alcohol Content."
+				},
+				{
+					"id": 3,
+					"text": "Whether or not your breath smells."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "When a truck turns, its rear wheels will go on:",
+			"answers": [{
+					"id": 0,
+					"text": "A longer path than the front wheels."
+				},
+				{
+					"id": 1,
+					"text": "A shorter path than the front wheels."
+				},
+				{
+					"id": 2,
+					"text": "A path of equal length as the front wheels."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "True or False: if you are driving on a freeway, where all the other cars are driving above the speed limit, for safety purposes you are allowed to go as fast as the other cars.",
+			"answers": [{
+					"id": 0,
+					"text": "True."
+				},
+				{
+					"id": 1,
+					"text": "False."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "You can cross a double yellow line by turning left when:",
+			"answers": [{
+					"id": 0,
+					"text": "The line on your side is broken."
+				},
+				{
+					"id": 1,
+					"text": "The line on the other side is broken."
+				},
+				{
+					"id": 2,
+					"text": "You are turning into a perpendicular street on the left."
+				},
+				{
+					"id": 3,
+					"text": "You can never cross a double yellow line."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "When are roads the most slippery?",
+			"answers": [{
+					"id": 0,
+					"text": "Right after it stops raining."
+				},
+				{
+					"id": 1,
+					"text": "During a thunderstorm."
+				},
+				{
+					"id": 2,
+					"text": "At the beginning of a drizzle."
+				},
+				{
+					"id": 3,
+					"text": "The day after it rain."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "True or False: You should only use your low beams in foggy wheather.",
+			"answers": [{
+					"id": 0,
+					"text": "True."
+				},
+				{
+					"id": 1,
+					"text": "False."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "When are you allowed to drive below the minimum speed limit?",
+			"answers": [{
+					"id": 0,
+					"text": "When it is necessary for safety purposes."
+				},
+				{
+					"id": 1,
+					"text": "Never."
+				},
+				{
+					"id": 2,
+					"text": "If you are a senior citizen and therefore have decreased reaction times."
+				},
+				{
+					"id": 3,
+					"text": "If it is raining."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "You can keep an open container of alcohol in a car if you put it in the:",
+			"answers": [{
+					"id": 0,
+					"text": "Glove compartment."
+				},
+				{
+					"id": 1,
+					"text": "Backseat."
+				},
+				{
+					"id": 2,
+					"text": "Trunk."
+				},
+				{
+					"id": 3,
+					"text": "You cannot have an open container of alcohol anywhere in a car."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "On long trips, you should:",
+			"answers": [{
+					"id": 0,
+					"text": "Not make any stops."
+				},
+				{
+					"id": 1,
+					"text": "Stop often, to keep yourself rested."
+				},
+				{
+					"id": 2,
+					"text": "Drink coffee, to keep yourself alert."
+				},
+				{
+					"id": 3,
+					"text": "Blast your radio, to keep yourself alert."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "In which of the follow scenarios are you permitted to exceed the speed limit?",
+			"answers": [{
+					"id": 0,
+					"text": "When trying to pass in the left lane."
+				},
+				{
+					"id": 1,
+					"text": "When all the other cars are going the same speed."
+				},
+				{
+					"id": 2,
+					"text": "When you deem it necessary for safety."
+				},
+				{
+					"id": 3,
+					"text": "Never."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "When shoud you follow a school crossing guard's instructions?",
+			"answers": [{
+					"id": 0,
+					"text": "During school hours, when school is in session."
+				},
+				{
+					"id": 1,
+					"text": "At all times."
+				},
+				{
+					"id": 2,
+					"text": "If there are children around."
+				},
+				{
+					"id": 3,
+					"text": "If there are no other traffic signs indicating for you to do otherwise."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "Your car breaks down on the highway, or there is an emergency. What do you do?",
+			"answers": [{
+					"id": 0,
+					"text": "Pull into the shoulder and stand behind your car, keeping traffic at bay and attracting help."
+				},
+				{
+					"id": 1,
+					"text": "Pull into the shoulder are raise your hood to show that there is an emergency. Then wait in your car for help, avoiding injury."
+				},
+				{
+					"id": 2,
+					"text": "Stop your car in the lane that it is in. This will slow traffic down and attract help."
+				},
+				{
+					"id": 3,
+					"text": "Keep going, and get off at the first possible exit because it is dangerous to stop on the highway."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "An intersection has a crosswalk, stop sign, and a stop line. Where do you stop?",
+			"answers": [{
+					"id": 0,
+					"text": "At the stop line."
+				},
+				{
+					"id": 1,
+					"text": "At the stop sign."
+				},
+				{
+					"id": 2,
+					"text": "At the crosswalk."
+				},
+				{
+					"id": 3,
+					"text": "Whichever, it doesn't matter."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "There are two lanes on the road, both going in the same direction. You should drive in:",
+			"answers": [{
+					"id": 0,
+					"text": "Whichever one is preferable to you."
+				},
+				{
+					"id": 1,
+					"text": "The right lane if you are going slowly."
+				},
+				{
+					"id": 2,
+					"text": "The left if you are faster driver."
+				},
+				{
+					"id": 3,
+					"text": "The right one, unless you passing someone or turning."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "The number displayed on a speed limit sign shows you the:",
+			"answers": [{
+					"id": 0,
+					"text": "Maximum speed limit for any driving conditions."
+				},
+				{
+					"id": 1,
+					"text": "Maximum speed limit for perfect driving conditions."
+				},
+				{
+					"id": 2,
+					"text": "Suggested speed, with leeway of a few miles per hour either way."
+				},
+				{
+					"id": 3,
+					"text": "minimum speepd limit, because driving slower can endanger the other cars on the road."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "Drivers need to yield for pedestrians:",
+			"answers": [{
+					"id": 0,
+					"text": "Always."
+				},
+				{
+					"id": 1,
+					"text": "In areas designeated for pedestrians, such as crosswalks."
+				},
+				{
+					"id": 2,
+					"text": "In public areas."
+				},
+				{
+					"id": 3,
+					"text": "At night, when it is more dangerous."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "You are driving and realize that you are letting the car drift off the pavement. What do you do?",
+			"answers": [{
+					"id": 0,
+					"text": "Step on the brakes, and turn back on the road."
+				},
+				{
+					"id": 1,
+					"text": "Step off the gas, and turn the car back onto the road."
+				},
+				{
+					"id": 2,
+					"text": "Step off the gas, and keep driving straight, until the car has slowed then turn back on the road."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "You are passing a school bus with its stoplights on that is stopped on the opposite side of the highway. You are separated by a physical barrier, what do you do?",
+			"answers": [{
+					"id": 0,
+					"text": "Slow down and watch out for children, but do not stop."
+				},
+				{
+					"id": 1,
+					"text": "Stop, watch for children, and if you are certain that there are no children in the way, you can then go."
+				},
+				{
+					"id": 2,
+					"text": "Keep going at your normal speed, but be vigilant."
+				},
+				{
+					"id": 3,
+					"text": "Come to a complete stop, and wait for the bus to start moving again."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "You are required by law to have the following kind of brake in your car:",
+			"answers": [{
+					"id": 0,
+					"text": "An emergency brake."
+				},
+				{
+					"id": 1,
+					"text": "A pedal brake."
+				},
+				{
+					"id": 2,
+					"text": "Neither of the above."
+				},
+				{
+					"id": 3,
+					"text": "Both of the above."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "What can you do in order to \"sober up\" after drinking?",
+			"answers": [{
+					"id": 0,
+					"text": "Drink strong coffee."
+				},
+				{
+					"id": 1,
+					"text": "Take a hot shower."
+				},
+				{
+					"id": 2,
+					"text": "Wait."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "What is the first thing that alcohol affects?",
+			"answers": [{
+					"id": 0,
+					"text": "Your vision."
+				},
+				{
+					"id": 1,
+					"text": "Your reaction time."
+				},
+				{
+					"id": 2,
+					"text": "Your judgment."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "How many drinks does it take to affects your driving?",
+			"answers": [{
+					"id": 0,
+					"text": "Depends on your weight and height."
+				},
+				{
+					"id": 1,
+					"text": "Depends on your tolerance."
+				},
+				{
+					"id": 2,
+					"text": "Two."
+				},
+				{
+					"id": 3,
+					"text": "One."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "True or False: If there is a broken yellow line on the opposite side of your lane, and a solid one on your side, you are allowed to turn left there.",
+			"answers": [{
+					"id": 0,
+					"text": "True."
+				},
+				{
+					"id": 1,
+					"text": "False."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "If the rear wheels of your vehicle skid to the right, which of the following should you do?",
+			"answers": [{
+					"id": 0,
+					"text": "steer left."
+				},
+				{
+					"id": 1,
+					"text": "Grip the wheel and keep it steady."
+				},
+				{
+					"id": 2,
+					"text": "Pump the brakes quickly."
+				},
+				{
+					"id": 3,
+					"text": "Steer right."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "How is right-of-way decided at a four-way intersection, if two cars get there simultaneously?",
+			"answers": [{
+					"id": 0,
+					"text": "The driver to the right goes first."
+				},
+				{
+					"id": 1,
+					"text": "Whoever has the nicest car gose first."
+				},
+				{
+					"id": 2,
+					"text": "The driver to the left goes first."
+				},
+				{
+					"id": 3,
+					"text": "Whoever moves the fastest has the right of way."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "If you want to turn around near a hill or curve, you need to be able to see at least:",
+			"answers": [{
+					"id": 0,
+					"text": "100 feet."
+				},
+				{
+					"id": 1,
+					"text": "200 feet."
+				},
+				{
+					"id": 2,
+					"text": "400 feet."
+				},
+				{
+					"id": 3,
+					"text": "500 feet."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "If you are parked on a hill, pointing upwards, which way should you turn your front wheels?",
+			"answers": [{
+					"id": 0,
+					"text": "To the left."
+				},
+				{
+					"id": 1,
+					"text": "To the right."
+				},
+				{
+					"id": 2,
+					"text": "straight."
+				},
+				{
+					"id": 3,
+					"text": "It doesn't matter."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "If there is a dust storm, what should you use to help make your drive safer?",
+			"answers": [{
+					"id": 0,
+					"text": "Headlights."
+				},
+				{
+					"id": 1,
+					"text": "Emergency Brake."
+				},
+				{
+					"id": 2,
+					"text": "Exhaust Pipe."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "What do you do if one of your car's tires blows out?",
+			"answers": [{
+					"id": 0,
+					"text": "Pump the brake and pull over once you are stopped."
+				},
+				{
+					"id": 1,
+					"text": "Get of the road as quickly as possible."
+				},
+				{
+					"id": 2,
+					"text": "Grip the steering wheel firmly, slow down, and then pull over."
+				},
+				{
+					"id": 3,
+					"text": "Press the brake hard, and then pull over."
+				}
+			],
+			"correct": 2,
+			"feedback": ""
+		},
+		{
+			"question": "If you are driving at night, and there is another car in front of you, what should you do with your headlights?",
+			"answers": [{
+					"id": 0,
+					"text": "Keep them on high, so that the driver in front knows you are there."
+				},
+				{
+					"id": 1,
+					"text": "Keep them low, so that you do not blind the driver in front."
+				},
+				{
+					"id": 2,
+					"text": "Use your low beams when close behind, but high beams when further away."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "What is defensive driving?",
+			"answers": [{
+					"id": 0,
+					"text": "When you follow all the rules of the road."
+				},
+				{
+					"id": 1,
+					"text": "When you reconsider driving if you are tired or under the influence of any substances, including medications."
+				},
+				{
+					"id": 2,
+					"text": "When you follow the speed limit."
+				},
+				{
+					"id": 3,
+					"text": "When you think about what the other drivers might do and prepare yourself for every possibility."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "If you were in an accident and were uninjured, your first responsibility is to:",
+			"answers": [{
+					"id": 0,
+					"text": "Call the police and file an offical accident report."
+				},
+				{
+					"id": 1,
+					"text": "Look to see if anyone is injured and help if they are."
+				},
+				{
+					"id": 2,
+					"text": "Exchange insurance inforamtion with the other drivers."
+				},
+				{
+					"id": 3,
+					"text": "Check your car for potential damage."
+				}
+			],
+			"correct": 1,
+			"feedback": ""
+		},
+		{
+			"question": "True or False: The minimum distance you can park from a railroad crossing is 50 feet.",
+			"answers": [{
+					"id": 0,
+					"text": "True."
+				},
+				{
+					"id": 1,
+					"text": "False."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "If you are in the middle of an intersection, waiting to turn left, and the light turns red:",
+			"answers": [{
+					"id": 0,
+					"text": "You should finish the turn when possible."
+				},
+				{
+					"id": 1,
+					"text": "You should try and back out of hte intersection to avoid danger."
+				},
+				{
+					"id": 2,
+					"text": "You should stop where you are and wait for the light to turn green again."
+				},
+				{
+					"id": 3,
+					"text": "You should go straight through, not left, to avoid traffic as best as possible."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
+		},
+		{
+			"question": "You can park up to, but not closer than:",
+			"answers": [{
+					"id": 0,
+					"text": "20 feet from a hydrant."
+				},
+				{
+					"id": 1,
+					"text": "5 feet from a hydrant."
+				},
+				{
+					"id": 2,
+					"text": "10 feet from a hydrant."
+				},
+				{
+					"id": 3,
+					"text": "15 feet from a hydrant."
+				}
+			],
+			"correct": 3,
+			"feedback": ""
+		},
+		{
+			"question": "You can use your horn in order to:",
+			"answers": [{
+					"id": 0,
+					"text": "Avoid an accident."
+				},
+				{
+					"id": 1,
+					"text": "Get someone to move faster."
+				},
+				{
+					"id": 2,
+					"text": "To get another driver's attention."
+				},
+				{
+					"id": 3,
+					"text": "To inform someone they made a mistake on the road."
+				}
+			],
+			"correct": 0,
+			"feedback": ""
 		}
-
-	
 
 ]
