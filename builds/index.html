@@ -1,68 +1,57 @@
 <!DOCTYPE HTML>
-<html ng-app="myQuiz">
+<html lang="en" ng-app="myQuiz">
   <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> Test Your Knowledge: DMV </title>
       <link rel="stylesheet" type "text/css" href="dmv_css/quiz.css">
+      <link rel="stylesheet" type "text/css" href="dmv_css/sidebar.css">
+
+      <script src="dmv_js/lib/angular/angular.min.js"></script>
+      <script src="dmv_js/lib/angular/angular-route.min.js"></script>
+      <!-- <script src="dmv_js/lib/angular/angular-route.min.js.map"></script> -->
+      <!-- <script src="dmv_js/lib/angular/angular-animate.min.js.map"></script> -->
+      <script src="dmv_js/lib/angular/angular-animate.min.js"></script>
 
       <script src="dmv_js/app.js"></script>
-      <script type="text/javascript" src="dmv_js/lib/angular.js"> </script>
-      <script type="text/javascript" src="dmv_js/controllers/quiz.js"> </script>
+      <!-- <script src="dmv_js/controllers/quiz.js"> </script> -->
 
 
   </head>
 
   <body>
 
-      <div id="myQuiz" ng-controller="QuizController">
-        <h1>Test Your Knowledge: <span>VA DMV</span> </h1>
-
-        <div class="progress">
-            <div class="{{($index === activeQuestion) ? 'on' : 'off'}}
-            {{(myQuestion.questionState === 'answered') ? 'answered' : 'unanswered'}}
-            {{(myQuestion.correctness === 'correct') ? 'correct' : 'incorrect'}}"
-            ng-repeat="myQuestion in myQuestions"></div>
-         </div>
-
-        <div class="intro {{(activeQuestion > -1) ? 'inactive' : 'active' }}">
-            <h2>Welcome</h2>
-            <p>Click begin to test your knowledge of VA DMV</p>
-            <p class="btn" ng-click="activeQuestion = 0">Begin</p>
-        </div>
-
-        <div class="question
-        {{$index === activeQuestion ? 'active' : 'inactive'}}
-        {{myQuestion.questionState === 'answered' ? 'answered' : 'unanswered' }}"
-        ng-repeat="myQuestion in myQuestions">
-              <p class="txt">{{myQuestion.question}}</p>
-              <p class="ans"
-              ng-class="{
-              image:Answer.image,
-              selected:isSelected($parent.$index, $index),
-              correct:isCorrect($parent.$index, $index) }"
-              ng-style="{'background-image': 'url({{Answer.image}})'}"
-              ng-click="selectAnswer($parent.$index,  $index)"
-              ng-repeat="Answer in myQuestions[$index].answers">
-               {{Answer.text}}
-             </p>
-                 <div class="feedback">
-                    <p ng-show="myQuestion.correctness === 'correct'">You are <strong> correct </strong> </p>
-                    <p ng-show="myQuestion.correctness === 'incorrect'"> Oops! That is not correct. </p>
-                    <p> {{myQuestion.feedback}}</p>
-                    <div class="btn" ng-click="selectContinue()">Continue</div>
-                </div>
-        </div>
-
-        <div class="results {{ (totalQuestions === activeQuestion) ? 'active' : 'inactive'}}">
-            <h3>Result</h3>
-            <p>You scored {{percentage}}% by correctly answering {{score}} of the total {{totalQuestions}} questions.</p>
-            <p>Use the links below to challenge your friends.</p>
-              <div class="share" ng-bind-html="createShareLinks(percentage)"></div>
-        </div>
-
-
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#!/about">About</a>
+        <a href="#!/dmvTest">DMV Questions</a>
+        <a href="#!/Contact">Contact</a>
+        <a href="#!/feedback">Feedback</a>
       </div>
+
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Meun Bar</span>
+    </div>
+
+  <ng-view></ng-view>
+
+  <!-- <div class="main" ng-include="'views/dmvQuestions.html'"></div> -->
+
+  <script>
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.body.style.backgroundColor = "white";
+  }
+  </script>
 
   </body>
 

@@ -31,21 +31,21 @@
               }
               $scope.percentage = (($scope.score / $scope.totalQuestions)*100).toFixed(1);
 
-        } // end of selectAnswer method
+        };// end of selectAnswer method
 
         $scope.isSelected = function(qIndex, aIndex){
           return $scope.myQuestions[qIndex].selectAnswer === aIndex;
 
-        }
+        };
 
         $scope.isCorrect = function(qIndex, aIndex){
           return $scope.myQuestions[qIndex].correctAnswer === aIndex;
 
-        }
+        };
 
         $scope.selectContinue = function(){
           return $scope.activeQuestion += 1;
-        }
+        };
 
         $scope.createShareLinks = function(percentage){
           var url = 'http://codifydesing.com';
@@ -54,7 +54,7 @@
           var newMarkup = emailLink + twitterLink;
 
           return $sce.trustAsHtml(newMarkup);
-        }
+        };
 
 
       }]);

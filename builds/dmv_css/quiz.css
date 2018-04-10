@@ -126,6 +126,7 @@ body { background-color: #fff; padding: 20px; text-align: center;}
 #myQuiz .intro.inactive, #myQuiz.inactive.answered { left:-1350px; }
 
 
+
 @media screen and (max-width: 650px){
   body {padding: 0px; margin: 0px;}
   #myQuiz { width: 320px; background-size: 320px auto; }
